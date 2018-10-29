@@ -37,6 +37,9 @@ li {
   border-style: solid;
   border-color: #a63f38;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .links li {
@@ -49,7 +52,7 @@ a {
   display: block;
   color: #fff;
   text-decoration: none;
-  width: 100%
+  width: 100%;
   padding: .5em 0;
 }
 
