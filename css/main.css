@@ -1,7 +1,48 @@
 html {
   box-sizing: border-box;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  color: #fff;
+  background-color: #d05c2e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: .4rem 0;
+}
+
+img {
+  width: 40px;
+  padding: .5em 0 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.links {
+  font-size: 1.125rem;
+}
+
+.links li {
+  float: left;
 }
